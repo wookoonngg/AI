@@ -21,9 +21,8 @@ print(a, a.ndim, a.shape, a.size)
 
 df = pd.DataFrame(
 
-    data {"a" : [4,5,6],
-          "b" : [7,8,9],
-          "c" : [10,11,12]}, index = [1,2,3]
-
+  data [[4,7,18],
+    [5,8,11],
+    [6,9,12]], index = [1,2,3], colums=['a', 'b','c']
 
 )
